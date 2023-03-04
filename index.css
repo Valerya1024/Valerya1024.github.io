@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(rgba(195, 231, 255, 0.5), rgb(255, 251, 213)), url("resources/background.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    margin: 0;
+}
+
+span.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+a.header {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.header {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 5rem;
+    border-radius: 1rem;
+}
+
+.container-fluid {
+    max-width: 1100px;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
