@@ -37,3 +37,22 @@ p {
     font-size: 1.6rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+div.card {
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+
+.dropdown-menu {
+    background-color: rgba(195, 231, 255, 0.8) !important;
+}
+
+.btns{font-weight: bold;
+    display: inline-block;
+    border: #5fb878;
+    background: #5fb878;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    color: white;}
