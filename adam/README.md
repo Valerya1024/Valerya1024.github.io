@@ -17,8 +17,8 @@
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <input id="search_input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button id="search" class="btn btn-outline-success" type="button">Search</button>
       </form>
     </div>
   </div>
@@ -50,6 +50,13 @@ Email: yic093@ucsd.edu
         heads[0].appendChild(link); 
     else 
         document.documentElement.appendChild(link); 
+    var inp=$("#search_input");
+    var btn=$("#search");
+    var oP=$(".markdown-body")[0];
+    btn.onclick=function(){
+      var str = inp.value;
+      if (!str)return;
+      oP.innerHTML=oP.innerHTML.split(str).join('<span>'+str+'</span>')}
 });
 </script>
 
