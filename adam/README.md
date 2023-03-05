@@ -53,8 +53,7 @@ Email: yic093@ucsd.edu
 });
 </script>
 
-<h2 id="game-development" style=""><strong>Game Development</strong></h2>
-
+## **Game Development**
 ## Space Rover
 ##### CS 498 Game Development Course Final Project
 - 3D game developed with Unreal Engine 4 
