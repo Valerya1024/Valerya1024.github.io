@@ -56,6 +56,7 @@ Email: yic093@ucsd.edu
     oP.style.maxWidth = "1000px";
     btn.onclick=function(){
       var str = inp.value;
+      console.log(str);
       if (!str)return;
       oP.innerHTML=oP.innerHTML.split(str).join('<span>'+str+'</span>')}
 });
