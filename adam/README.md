@@ -19,7 +19,7 @@ Email: yic093@ucsd.edu
 - 3D game developed with Unreal Engine 4 
 - An adventure in the solar system that's about to explode
 - Jump into the blackhole
-<iframe src="//player.bilibili.com/player.html?aid=634565306&bvid=BV16b4y1B7pc&cid=453564796&page=1&highquality=1" width="100%" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=634565306&bvid=BV16b4y1B7pc&cid=453564796&page=1&highquality=1" width="100%" height="100%" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 ![](Images/SpaceRoverCover.jpg)
 >**Check out** my [demo video](https://www.bilibili.com/video/BV16b4y1B7pc?share_source=copy_web&vd_source=8526efc45b6cabb30a409be5048ff71d) and our [project code](https://github.com/Adam-2000/SpaceRover)
 >##### Inspired by [*Outer Wilds*](https://store.steampowered.com/app/753640/Outer_Wilds/)
@@ -30,7 +30,7 @@ Email: yic093@ucsd.edu
 - Frame buffer graphic output structure developed by me
 - 64-color palette
 
-<iframe src="//player.bilibili.com/player.html?aid=634565306&bvid=BV16b4y1B7pc&cid=453564796&page=1&highquality=1" width="100%"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=634565306&bvid=BV16b4y1B7pc&cid=453564796&page=1&highquality=1" width="100%" height="100%" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 >**Check out** my [demo video](https://www.bilibili.com/video/BV1ap4y1B7Pc?share_source=copy_web&vd_source=8526efc45b6cabb30a409be5048ff71d) and our [project code](https://github.com/Adam-2000/ShadowNinja) 
 ---
 * And this is my another VR educational game [Crystal Vision](https://github.com/Adam-2000/VR_CS397_4_27)
