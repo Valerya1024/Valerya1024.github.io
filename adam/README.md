@@ -65,3 +65,7 @@ Email: yic093@ucsd.edu
 <br/>
 <br/>
 ---
+<script>
+var h1 = document.getElementByTagName("h1")[0];
+h1.style.display = 'none';
+</script>
