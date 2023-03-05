@@ -1,25 +1,18 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Fixed navbar</a>
+    <a class="navbar-brand" href="#">Yize Chen's Projects</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#Game_development">Game development</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+          <a class="nav-link active" href="#">Link</a>
         </li>
       </ul>
-      <form class="d-flex" role="search">
-        <input id="search_input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button id="search" class="btn btn-outline-success" type="button">Search</button>
-      </form>
     </div>
   </div>
 </nav>
@@ -50,15 +43,8 @@ Email: yic093@ucsd.edu
         heads[0].appendChild(link); 
     else 
         document.documentElement.appendChild(link); 
-    var inp=$("#search_input");
-    var btn=$("#search");
     var oP=$(".markdown-body")[0];
     oP.style.maxWidth = "1000px";
-    btn.onclick=function(){
-      var str = inp.value;
-      console.log(str);
-      if (!str)return;
-      oP.innerHTML=oP.innerHTML.split(str).join('<span>'+str+'</span>')}
 });
 </script>
 
