@@ -8,7 +8,7 @@ Email: yic093@ucsd.edu
   crossorigin="anonymous"></script>
 <script>
   $( document ).ready(function() {
-    var h1 = $('input')[0];
+    var h1 = $('h1')[0];
     h1.style.display = 'none';
 });
 </script>
