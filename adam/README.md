@@ -3,6 +3,11 @@ Check out more on my [Github](https://github.com/Adam-2000) and
 [LinkedIn Profile](https://www.linkedin.com/in/yize-chen-180901207/) <br/>
 Email: yic093@ucsd.edu
 
+<script>
+var h1 = document.getElementByTagName("h1")[0];
+h1.style.display = 'none';
+</script>
+
 ## **Game Development**
 ## Space Rover
 ##### CS 498 Game Development Course Final Project
@@ -65,7 +70,4 @@ Email: yic093@ucsd.edu
 <br/>
 <br/>
 ---
-<script>
-var h1 = document.getElementByTagName("h1")[0];
-h1.style.display = 'none';
-</script>
+
