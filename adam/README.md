@@ -53,6 +53,7 @@ Email: yic093@ucsd.edu
     var inp=$("#search_input");
     var btn=$("#search");
     var oP=$(".markdown-body")[0];
+    oP.style.maxWidth = "1000px";
     btn.onclick=function(){
       var str = inp.value;
       if (!str)return;
@@ -78,10 +79,16 @@ Email: yic093@ucsd.edu
 - 64-color palette
 
 ![](Images/ShadowNinjaCover.png)
->**Check out** my [demo video](https://www.bilibili.com/video/BV1ap4y1B7Pc?share_source=copy_web&vd_source=8526efc45b6cabb30a409be5048ff71d) and our [project code](https://github.com/Adam-2000/ShadowNinja) 
----
-* And this is my another VR educational game [Crystal Vision](https://github.com/Adam-2000/VR_CS397_4_27)
----
+<blockquote>
+  <p><strong>Check out</strong> my <a href="https://www.bilibili.com/video/BV1ap4y1B7Pc?share_source=copy_web&vd_source=8526efc45b6cabb30a409be5048ff71d">demo video</a> and our <a href="https://github.com/Adam-2000/ShadowNinja">project code</a></p>
+  <ul>
+    <li>
+      <h5 id="and-this-is-my-another-vr-educational-game-crystal-vision">And this is my another VR educational game <a href="https://github.com/Adam-2000/VR_CS397_4_27">Crystal Vision</a><a class="anchorjs-link " href="#and-this-is-my-another-vr-educational-game-crystal-vision" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h5>
+      <p><br></p>
+    </li>
+  </ul>
+</blockquote>
+
 <br/>
 
 ## **Computer Graphics**
