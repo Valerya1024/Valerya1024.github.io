@@ -1,19 +1,60 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Fixed navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
 # Yize Chen's Portfolio
+
 Check out more on my [Github](https://github.com/Adam-2000) and
 [LinkedIn Profile](https://www.linkedin.com/in/yize-chen-180901207/) <br/>
 Email: yic093@ucsd.edu
-<script
-  src="https://code.jquery.com/jquery-3.6.3.min.js"
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"
   integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
   crossorigin="anonymous"></script>
 <script>
   $( document ).ready(function() {
     var h1 = $('h1')[0];
     h1.style.display = 'none';
+    var link=$.createElement("link"); 
+    link.setAttribute("rel", "stylesheet"); 
+    link.setAttribute("type", "text/css"); 
+    link.setAttribute("integrity", "sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD")
+    link.setAttribute("crossorigin", "anonymous")
+    link.setAttribute("href", "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"); 
+    var heads = $("head"); 
+    if(heads.length) 
+        heads[0].appendChild(link); 
+    else 
+        doc.documentElement.appendChild(link); 
 });
 </script>
 
-## **Game Development**
+<h2 id="game-development" style=""><strong>Game Development</strong></h2>
+
 ## Space Rover
 ##### CS 498 Game Development Course Final Project
 - 3D game developed with Unreal Engine 4 
