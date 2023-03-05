@@ -39,7 +39,7 @@ Email: yic093@ucsd.edu
   $( document ).ready(function() {
     var h1 = $('h1')[0];
     h1.style.display = 'none';
-    var link=$.createElement("link"); 
+    var link=document.createElement("link"); 
     link.setAttribute("rel", "stylesheet"); 
     link.setAttribute("type", "text/css"); 
     link.setAttribute("integrity", "sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD")
@@ -49,7 +49,7 @@ Email: yic093@ucsd.edu
     if(heads.length) 
         heads[0].appendChild(link); 
     else 
-        doc.documentElement.appendChild(link); 
+        document.documentElement.appendChild(link); 
 });
 </script>
 
