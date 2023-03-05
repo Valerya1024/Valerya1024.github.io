@@ -2,12 +2,14 @@
 Check out more on my [Github](https://github.com/Adam-2000) and
 [LinkedIn Profile](https://www.linkedin.com/in/yize-chen-180901207/) <br/>
 Email: yic093@ucsd.edu
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
 <script>
-var h1 = document.getElementByTagName("h1")[0];
-h1.style.display = 'none';
+  $( document ).ready(function() {
+    var h1 = $('input')[0];
+    h1.style.display = 'none';
+});
 </script>
-
 ## **Game Development**
 ## Space Rover
 ##### CS 498 Game Development Course Final Project
